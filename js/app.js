@@ -10,12 +10,16 @@ document.getElementById("comenzar").addEventListener("click", function(){
     intentos = 0;
     numeroMagico = Math.floor(Math.random() * 10) + 1;
     document.getElementById("adivina").className = "block";
+    document.className="btn"
+    let boton = document.querySelector("button")
+    boton.className="displayNone"
 });
 
 
 document.getElementById("enviar").addEventListener("click", function(){
     intentos++;
     let numeroIngresado = document.getElementById("numero").value;
+   
     if (numeroIngresado < 1 || numeroIngresado > 10) {
         alert("El número ingresado está fuera del rango permitido. Inténtalo de nuevo.");
     } else if (numeroIngresado == numeroMagico) {

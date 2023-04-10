@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     padding-top:15rem ;
-    padding-bottom:21rem ;
+    padding-bottom:19rem ;
     width: 100%;
 }
 .displayNone{
@@ -13,3 +13,44 @@
 .block{
     display: block;
 }
+h1{
+    font-weight: 900;
+    font-size: 4rem;
+}
+body{
+background: rgb(136, 3, 3);
+}
+.boton-edit{
+    background: rgb(255, 234, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 0.1rem 3rem;
+    animation: blink 2s infinite;
+}
+.boton-edit:hover{
+   
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 0.1rem 3rem;
+    background:rgb(255, 234, 0);
+ 
+}
+input{
+    padding: 0.4rem;
+}
+@keyframes blink {
+    0% {
+      box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.726);
+    }
+    50% {
+      box-shadow: 0 0 20px 20px rgba(221, 221, 221, 0.366);
+    }
+  }
+  p{
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
