@@ -1,0 +1,15 @@
+.fondo{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.313), rgba(0, 0, 0, 0.33)), url(../img/numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:15rem ;
+    padding-bottom:21rem ;
+    width: 100%;
+}
+.displayNone{
+    display: none;
+}
+.block{
+    display: block;
+}
